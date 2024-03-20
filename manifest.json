@@ -1,4 +1,8 @@
 {
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
   "content_scripts": [
     {
       "matches": [
