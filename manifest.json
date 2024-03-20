@@ -1,0 +1,21 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost:9011/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "description": "iframe discovery example",
+  "icons": {},
+  "manifest_version": 2,
+  "name": "Iframe Discovery Example",
+  "permissions": [],
+  "short_name": "ide",
+  "version": "0.1"
+}
