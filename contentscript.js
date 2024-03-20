@@ -11,7 +11,7 @@ announceExtension()
 
 window.addEventListener('message', event => {
   if (event.data.type === 'requestExtensions') {
-    console.log('iframe contentscript: received requestExtensions', event.data)
+    console.log('iframe contentscript: received requestExtensions', event)
     announceExtension()
   }
 });
