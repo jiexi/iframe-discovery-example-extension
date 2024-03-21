@@ -1,4 +1,4 @@
-# iframe-discovery-example-example
+# iframe-discovery-example
 
 Example Chrome extension that establishes a pattern for extension discovery via iframe
 
